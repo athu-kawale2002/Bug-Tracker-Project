@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Hepta+Slab:100,200,300,regular,500,600,700,800,900);
+.Jumbatron{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: rgba(239, 209, 209, 1);
+}
+
+.navbar-nav {
+    display: table-row;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+}
+.butt{
+    padding-top: 50px;
+}
+.butt1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+html,body,.container-fluid {
+    height:100%;
+    overflow: hidden;
+    font-family: Hepta Slab;
+}
+.container-fluid {
+    display:table;
+    width: 100%;
+    margin-top: -50px;
+    padding: 50px 0 0 0; /*set left/right padding according to needs*/
+    box-sizing: border-box;
+}
+
+.row {
+    height: 100vh;
+    display: table-row;
+}
+
+.row .no-float {
+  display: table-cell;
+  float: none;
+}
+.no-float{
+    padding: 0px;
+}
+.accordion-item{
+    padding: 25px;
+}
+.bug-list{
+    overflow-y: scroll;
+    height: 800px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.col-3{
+    background-color: rgba(254, 236, 236, 1);
+}
+.heading{
+    text-shadow: 2px 2px 4px grey;
+}
+.accordion{
+    --bs-accordion-btn-bg: rgba(243, 230, 230, 1);
+    --bs-accordion-active-bg: rgba(254, 236, 236, 1);
+    --bs-accordion-active-color: gray;
+    --bs-accordion-btn-focus-border-color: gray;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(253, 69, 13, 0.25);
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    text-decoration: underline;
+    text-shadow: 0.5px 0.5px 1px gray;
+}
